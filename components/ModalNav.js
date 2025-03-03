@@ -1,6 +1,7 @@
 "use client";
 
 import { Cross1Icon, HamburgerMenuIcon } from '@radix-ui/react-icons'
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 const ModalNav = () => {
@@ -23,11 +24,26 @@ const ModalNav = () => {
                   className="hover:cursor-pointer"                
                 />
               </button>
-              <div className="absolute bg-black right-0">
-                <ul>
-                    <li>About</li>
-                    <li>Lessons</li>
-                    <li>Locations</li>
+              <div className="absolute bg-black right-0 top-25">
+                <ul className="flex flex-col gap-5 px-10">
+                    <li className="hover:text-purple-700 py-2
+                    hover:cursor-pointer">
+                      <Link href="">
+                        About
+                      </Link>
+                    </li>
+                    <li className="hover:text-purple-700 py-2
+                    hover:cursor-pointer">
+                      <Link href="">
+                        Lessons
+                      </Link>
+                    </li>
+                    <li className="hover:text-purple-700 py-2
+                    hover:cursor-pointer">
+                      <Link href="">
+                        Locations
+                      </Link>
+                    </li>
                 </ul>
               </div>
             </>
