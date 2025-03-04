@@ -32,8 +32,8 @@ const Footer = () => {
         </nav>
       </div>
       <div id="footer-contact-info" className="flex flex-col items-center 
-      justify-center border border-yellow-500 lg:flex-row gap-5">
-        <div className="border border-white text-white 
+      justify-center lg:flex-row gap-5">
+        <div className=" text-white 
          w-[290px] px-2 text-center">
           <p>
             Naperville 
@@ -48,7 +48,7 @@ const Footer = () => {
             Naperville, IL, 60565
           </p>
         </div>
-        <div className="border border-white text-white 
+        <div className=" text-white 
          w-[290px] px-4 text-center">
           <p>
             Homer Glen
