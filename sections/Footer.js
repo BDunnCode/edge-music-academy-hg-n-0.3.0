@@ -31,6 +31,39 @@ const Footer = () => {
           </ul>
         </nav>
       </div>
+      <div id="footer-contact-info" className="flex flex-col items-center 
+      justify-center border border-yellow-500 lg:flex-row gap-5">
+        <div className="border border-white text-white 
+         w-[290px] px-2 text-center">
+          <p>
+            Naperville 
+          </p>
+          <p>
+            Phone: 630-216-9190 
+          </p>
+          <p>
+            Address: 32 Foxcroft Road, Suite 112 
+          </p>
+          <p>
+            Naperville, IL, 60565
+          </p>
+        </div>
+        <div className="border border-white text-white 
+         w-[290px] px-4 text-center">
+          <p>
+            Homer Glen
+          </p>
+          <p>
+            Phone: 630-445-1525 
+          </p>
+          <p>
+            Address: 15750 S Bell Rd Suite 2E
+          </p>
+          <p>
+          Homer Glen, IL 60491
+          </p>
+        </div>
+      </div>
     </footer>
   );
 };
