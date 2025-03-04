@@ -2,6 +2,7 @@ import ButtonOne from '@/components/ButtonOne';
 import ButtonTwo from '@/components/ButtonTwo';
 import ModalNav from '@/components/ModalNav';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 const Header = () => {
@@ -32,14 +33,29 @@ const Header = () => {
                       <ButtonOne />
                       <ButtonTwo />
                     </div>
-
                 </div>
                 <ModalNav />
                 <div className="hidden xl:flex">
                     <ul className="flex gap-3">
-                        <li>About</li>
-                        <li>Lessons</li>
-                        <li>Locations</li>
+                        <li className="hover:cursor-pointer hover:opacity-80
+                        hover:text-purple-700">
+                          <Link href="">
+                            About
+                          </Link>
+                          
+                        </li>
+                        <li className="hover:cursor-pointer hover:opacity-80
+                        hover:text-purple-700">
+                          <Link href="">
+                            Lessons
+                          </Link>    
+                        </li>
+                        <li className="hover:cursor-pointer hover:opacity-80
+                        hover:text-purple-700">
+                          <Link href="">
+                            Locations
+                          </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

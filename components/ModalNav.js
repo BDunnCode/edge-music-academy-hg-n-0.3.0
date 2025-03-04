@@ -27,19 +27,19 @@ const ModalNav = () => {
               <div className="absolute bg-black right-0 top-25">
                 <ul className="flex flex-col gap-5 px-10">
                     <li className="hover:text-purple-700 py-2
-                    hover:cursor-pointer">
+                    hover:cursor-pointer border-b border-white">
                       <Link href="">
                         About
                       </Link>
                     </li>
                     <li className="hover:text-purple-700 py-2
-                    hover:cursor-pointer">
+                    hover:cursor-pointer border-b border-white">
                       <Link href="">
                         Lessons
                       </Link>
                     </li>
                     <li className="hover:text-purple-700 py-2
-                    hover:cursor-pointer">
+                    hover:cursor-pointerb">
                       <Link href="">
                         Locations
                       </Link>
